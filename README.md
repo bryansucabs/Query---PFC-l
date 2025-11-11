@@ -11,3 +11,9 @@ Implementación del detector de objetos Featurized Query R-CNN que combina Faste
 2. **Falta de Flexibilidad**:
    - Queries fijas después del entrenamiento limitan la generalización
    - Queries featurizadas se adaptan dinámicamente
+     
+**Componentes Clave:**
+- **Backbone CNN** (ResNet-50/101) - Extracción robusta de características
+- **Query Generation Network** - Generación inteligente de consultas
+- **RPN Mejorado** - Detección de regiones con contexto enriquecido
+- **Detection Head** - Clasificación y refinamiento preciso
